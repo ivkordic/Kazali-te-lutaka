@@ -1,0 +1,35 @@
+@model Kazalište_lutaka.Models.Raspored
+
+@{
+    ViewData["Title"] = "Obriši termin predstave";
+}
+
+<h2></h2>
+
+<h3>Jeste li sigurni da želite obrisati termin?</h3>
+<div>
+    <h4>Raspored</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="Id" />
+        <dt>
+            @Html.DisplayNameFor(model => model.DatPredstave)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DatPredstave)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Predstave)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Predstave.Naziv)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Obriši" class="btn btn-default" /> |
+            <a asp-action="Index">Natrag na popis</a>
+        </div>
+    </form>
+</div>

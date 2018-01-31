@@ -1,0 +1,36 @@
+@model Kazalište_lutaka.Models.Predstave
+
+@{
+    ViewData["Title"] = "Detalji";
+}
+
+<h2></h2>
+
+<div>
+    <h4>Predstave</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Naziv)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Naziv)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Trajanje)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Trajanje)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Uzrast)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Uzrast)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Natrag na popis</a>
+</div>

@@ -1,0 +1,10 @@
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\bin\Debug\netcoreapp1.1\Kazalište lutaka.deps.json
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\bin\Debug\netcoreapp1.1\Kazalište lutaka.runtimeconfig.json
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\bin\Debug\netcoreapp1.1\Kazalište lutaka.runtimeconfig.dev.json
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\bin\Debug\netcoreapp1.1\Kazalište lutaka.dll
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\obj\Debug\netcoreapp1.1\Kazalište lutaka.csprojResolveAssemblyReference.cache
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\obj\Debug\netcoreapp1.1\Kazalište lutaka.csproj.CoreCompileInputs.cache
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\obj\Debug\netcoreapp1.1\Kazalište lutaka.AssemblyInfo.cs
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\bin\Debug\netcoreapp1.1\Kazalište lutaka.pdb
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\obj\Debug\netcoreapp1.1\Kazalište lutaka.dll
+C:\Users\Koisnik\Desktop\New folder\Kazalište lutaka\Kazalište lutaka\obj\Debug\netcoreapp1.1\Kazalište lutaka.pdb

@@ -1,0 +1,47 @@
+@model IEnumerable<Kazalište_lutaka.Models.Predstave>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Unesi novu predstavu</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Naziv)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Trajanje)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Uzrast)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trajanje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uzrast)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Uredi</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalji</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Obriši</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
